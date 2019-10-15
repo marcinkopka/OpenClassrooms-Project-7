@@ -1,0 +1,44 @@
+.ListItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #2e289b;
+  padding: 5px 15px;
+}
+
+.ListItem:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.PlaceDescription {
+  padding: 10px 15px 10px 10px;
+}
+
+.PlaceName {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.PlaceVicinity {
+  font-size: 1.1em;
+  margin: 8px 0 5px 0;
+}
+
+.AverageRating {
+  color: #e7711b;
+}
+
+.PlacePhoto {
+  width: 85px;
+  height: 85px;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.PlacePhoto img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}

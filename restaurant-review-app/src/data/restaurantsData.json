@@ -1,0 +1,53 @@
+{
+  "jsonRestaurants":
+  [
+    {
+      "place_id":1,
+      "name":"Alfa",
+      "vicinity":"23 New Briggate, Leeds",
+      "lat":53.8001578474205,
+      "lng":-1.5422377830176401,
+      "placeDetails":
+      {
+        "formatted_phone_number":"01132440358",
+        "reviews":
+        [
+          {
+            "author_name":"Tom Hardy",
+            "rating":1,
+            "text":"Great! But not many veggie options."
+          },
+          {
+            "author_name":"John Hanks",
+            "rating":1,
+            "text":"My favorite restaurant!"
+          }
+        ]
+      }
+    },
+    {
+      "place_id":2,
+      "name":"Beta",
+      "vicinity":"25-27 The Headrow, Leeds",
+      "lat":53.7988841940848,
+      "lng":-1.541218543591981,
+      "placeDetails":
+      {
+        "formatted_phone_number":"01135489651",
+        "reviews":
+        [
+          {
+            "author_name":"Jennefer Stone",
+            "rating":2,
+            "text":"Tiny pizzeria next to Sacre Coeur."
+          },
+          {
+            "author_name":"Joan Anslet",
+            "rating":2,
+            "text":"Meh, it was fine."
+          }
+        ]
+      }
+    }
+  ]
+}
