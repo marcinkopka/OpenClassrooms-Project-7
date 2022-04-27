@@ -1,0 +1,55 @@
+.ReviewContainer {
+  display: flex;
+  border-top: 1px solid #2e289b;
+}
+
+.AuthorPhoto {
+  align-self: center;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.AuthorPhoto img {
+  width: 100%;
+  height: 100%;
+}
+
+.AuthorLetterContainer {
+  display: flex;
+  background-color: #2e289b;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.AuthorLetter {
+  color: #e6e600;
+  font-size: 1.9em;
+}
+
+.Review {
+  margin: 10px;
+}
+
+.AuthorName {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.ReviewRating {
+  color: #e7711b;
+}
+
+.ReviewText {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.AuthorName, .ReviewText {
+  word-break: break-all;
+}

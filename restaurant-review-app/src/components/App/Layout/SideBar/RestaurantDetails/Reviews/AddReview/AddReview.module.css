@@ -1,0 +1,139 @@
+.AddReview {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Fields {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 25px;
+}
+
+.Names {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FirstName, .LastName {
+  width: 45%;
+}
+
+.Fields div {
+  position: relative;
+}
+
+.Fields div label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  color: #999;
+  transition: .3s;
+  pointer-events: none;
+}
+
+.Fields input, .Review textarea {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #999;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+.Fields input:focus ~ label, .Fields input:valid ~ label, .Review textarea:focus ~ label, .Review textarea:valid ~ label {
+  top: -12px;
+  left: 0;
+  color: #f7497d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Fields input:focus, .Review textarea:focus {
+  border-bottom: 2px solid #f7497d;
+  transition: 1.5s;
+}
+
+.Review textarea {
+  resize: none;
+  margin-bottom: 5px;
+  font-family: inherit;
+}
+
+.Fields .Buttons {
+  margin: 1px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.Fields button:hover {
+  color: #2e289b;
+  cursor: pointer;
+  border: 3px solid #2e289b;
+}
+
+.Fields button:focus {
+  border: 3px solid #fff;
+  box-shadow: inset 0 0 10px #fff;
+}
+
+.Fields .Add {
+  background-color: #00b33c;
+  box-shadow: inset 0 0 10px #000;
+  border: 3px solid #fff;
+  height: 38px;
+}
+
+.AddReview button:disabled {
+  background-color: #000;
+  color: #fff;
+}
+
+.AddReview button:hover:disabled {
+  border: 3px solid #fff;
+  cursor: not-allowed;
+}
+
+.Fields .Cancel {
+  background-color: #e7711b;
+  box-shadow: inset 0 0 15px #000;
+  border: 3px solid #fff;
+  height: 38px;
+}
+
+.UserRating {
+  display: flex;
+  align-items: center;
+}
+
+.Description {
+  color: #999;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.Stars {
+  display: flex;
+  height: 60px;
+}
+
+.StarRated::before, .StarNotRated::before {
+  content: '\2605';
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.StarRated::before {
+  color: #e7711b;
+}
+
+.StarNotRated::before {
+  color: #999;
+}

@@ -1,0 +1,116 @@
+.Filter {
+  width: 100%;
+  height: 172px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #2e289b;
+  box-shadow: inset 0 0 7px #000;
+}
+
+.Title {
+  width: 100%;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #e6e600;
+  text-shadow: 3px 3px 6px #000;
+}
+
+.Min, .Max, .Apply {
+  width: 100%;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-shadow: 3px 3px 6px #000;
+}
+
+.Label {
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: #e6e600;
+}
+
+.Star {
+  height: 60px;
+}
+
+.Star::before {
+  content: '\2605';
+  color: #e6e600;
+  font-size: 40px;
+}
+
+.Less {
+  background-color: #e60000;
+  color: #fff;
+  box-shadow: inset 0 0 12px #000;
+}
+
+.Value {
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #e6e600;
+}
+
+.More {
+  background-color: #00b33c;
+  color: #fff;
+  box-shadow: inset 0 0 8px #000;
+}
+
+.Filter button {
+  min-width: 80px;
+  display: block;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0 15px;
+  border: 2px solid #2e289b;
+  border-radius: 15px;
+  outline: none;
+  color: #fff;
+}
+
+.Filter button:hover {
+  border: 2px solid #e6e600;
+  border-radius: 50px;
+  color: #e6e600;
+}
+
+.Filter button:disabled {
+  cursor: not-allowed;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  box-shadow: none;
+}
+
+.Filter button:hover:disabled {
+  cursor: not-allowed;
+  border: none;
+  border-radius: 15px;
+  box-shadow: none;
+}
+
+.Filter .Apply button {
+  min-width: 150px;
+  margin-bottom: 5px;
+  background-color: #00b33c;
+  color: #ffffff;
+  box-shadow: inset 0 0 8px #000;
+}
+
+.Filter .Apply button:hover {
+color: #e6e600;
+}

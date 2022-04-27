@@ -1,0 +1,36 @@
+.MapContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.Map {
+  width: 75%;
+  height: 100%;
+}
+
+.SideBar {
+  width: 25%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.GeoInfo {
+  background-color: #2e289b;
+  position: absolute;
+  z-index: 90;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 22px 0 0;
+  box-shadow: inset 0 0 8px #000;
+}
+
+.GeoInfo p {
+  margin: 0;
+  padding: 10px 15px;;
+  color: #e60000;
+  font-family: cursive;
+  font-size: 1.2em;
+  font-weight: 700;
+  
+}

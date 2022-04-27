@@ -1,0 +1,100 @@
+.Layout {
+  width: 100%;
+  height: 100%;
+}
+
+.Layout .Header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.Layout .Title {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  letter-spacing: 5px;
+  background-color: #2e289b;
+  font-size: 1.2em;
+  color: #e6e600;
+  border-radius: 0 10px 10px 0;
+  box-shadow: inset 0 0 8px #000;
+  text-shadow: 4px 4px 8px #000;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.Layout .Main {
+  width: 100%;
+  height: 90%;
+}
+
+.Layout .Position {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e289b;
+  border-radius: 10px;
+  box-shadow: inset 0 0 8px #000;
+}
+
+.Layout .Position .Marker {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Layout .Position .Marker img {
+  width: 32px;
+  height: 32px;
+}
+
+.Layout .Description h2 {
+  font-size: 1.5em;
+  color: #00b33c;
+  font-family: cursive;
+  text-shadow: 2px 2px 4px #000;
+  margin: 0;
+  padding-right: 8px;
+  height: 32px;
+}
+
+.Layout .Info {
+  display: flex;
+  flex-direction: column;
+  width: calc(60% - 250px);
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2e289b;
+  border-radius: 10px 0 0 10px;
+  box-shadow: inset 0 0 8px #000;
+}
+
+.InfoContent {
+  box-sizing: border-box;
+  padding-left: 28px;
+}
+
+.Layout .Info h2 {
+  font-family: cursive;
+  font-size: 1.2em;
+  color: #e60000;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.Layout .Info h3 {
+  font-family: cursive;
+  font-size: 1.2em;
+  color: #e60000;
+  text-shadow: 2px 2px 4px #000;
+}
